@@ -1,6 +1,9 @@
 import random
 
-square = [1, 2, 3, 4, 5, 6]
-numbers = random.choice(square)
+def dice():
+    square = [1, 2, 3, 4, 5, 6]
+    numbers = random.choice(square)
+    return numbers
 
-print(numbers)
+
+print(dice())
